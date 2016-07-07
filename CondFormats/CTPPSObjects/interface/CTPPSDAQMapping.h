@@ -41,7 +41,7 @@ class CTPPSVFATInfo
     
     friend std::ostream& operator << (std::ostream& s, const CTPPSVFATInfo &fp);
 
-    //COND_SERIALIZABLE;
+    COND_SERIALIZABLE;
 
 };
 
