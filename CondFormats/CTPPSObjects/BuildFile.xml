@@ -2,6 +2,7 @@
 <use   name="DataFormats/Common"/>
 <use   name="DetectorDescription/Base"/>
 
+<use   name="CondFormats/Common"/>
 <use   name="CondFormats/Serialization"/>
 <use   name="CondFormats/DataRecord"/>
 <use   name="FWCore/Utilities"/>
