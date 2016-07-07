@@ -133,7 +133,7 @@ class CTPPSFramePosition
   protected:
     unsigned int rawPosition;
 
-//  COND_SERIALIZABLE;
+  COND_SERIALIZABLE;
 
 };
 
