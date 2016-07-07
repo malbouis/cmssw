@@ -7,6 +7,7 @@
     <field name="VFATMapping" mapping="blob" />
     </class> -->
     
-    <class name="std::map<CTPPSFramePosition,CTPPSVFATInfo>"/>
+    <class name="CTPPSDAQMapping"  class_version="0"/>
+    <class name="std::map<CTPPSFramePosition,CTPPSVFATInfo>" class_version="0"/>
     
 </lcgdict>
