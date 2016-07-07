@@ -1,0 +1,17 @@
+<flags   GENREFLEX_ARGS="--"/>
+<use   name="DataFormats/Common"/>
+<use   name="DetectorDescription/Base"/>
+
+<use   name="CondFormats/Serialization"/>
+<use   name="CondFormats/DataRecord"/>
+<use   name="FWCore/Utilities"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="FWCore/MessageLogger"/>
+
+<use   name="root"/>
+<use   name="boost"/>
+<use   name="boost_serialization"/>
+
+<export>
+  <lib   name="1"/>
+</export>
