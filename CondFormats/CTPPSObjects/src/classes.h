@@ -1,4 +1,4 @@
-#include "CondFormats/CTPPSObjects/interface/CTPPSDAQMapping.h"
+#include "CondFormats/CTPPSObjects/src/headers.h"
 
 namespace CondFormats_CTPPSObjects {
    struct dictionary {
