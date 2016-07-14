@@ -1,1 +1,1 @@
-#include "CondFormats/CTPPSObjects/src/classes.h"
+#include "CondFormats/CTPPSObjects/interface/CTPPSDAQMapping.h"
