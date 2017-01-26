@@ -12,7 +12,7 @@ process.source = cms.Source("EmptyIOVSource",
 
 process.load("CondCore.CondDB.CondDB_cfi")
 # input database (in this case local sqlite file)
-process.CondDB.connect = 'sqlite_file:CTPPSDAQMapping.db'  
+process.CondDB.connect = 'sqlite_file:CTPPSDAQMapping_fill_5288.db'  
 
 
 process.PoolDBESSource = cms.ESSource("PoolDBESSource",
@@ -20,7 +20,7 @@ process.PoolDBESSource = cms.ESSource("PoolDBESSource",
     DumpStat=cms.untracked.bool(True),
     toGet = cms.VPSet(cms.PSet(
         record = cms.string('CTPPSDAQMappingRcd'),
-        tag = cms.string("myDAQMapping_test")
+        tag = cms.string("DAQMapping_fill_5288")
     )),
 )
 
