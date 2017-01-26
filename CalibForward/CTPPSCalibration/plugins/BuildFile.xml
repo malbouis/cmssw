@@ -1,0 +1,8 @@
+<use   name="CondFormats/CTPPSObjects"/>
+<use   name="CondCore/PopCon"/>
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="CondFormats/DataRecord"/>
+<library   file="myCTPPSDAQMappingAnalyzer.cc" name="CondToolsmyCTPPSDAQMappingAnalyzer">
+   <flags   EDM_PLUGIN="1"/>
+</library>
