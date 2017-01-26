@@ -53,29 +53,6 @@ namespace edmtest
     for (const auto &p : mapping->VFATMapping)
     std::cout << "    " << p.first << " -> " << p.second << std::endl;
 
-
-    /*const CTPPSRPPositions* pRPPositions=poshandle.product();
-    std::cout<<"got CTPPSRPPositions* "<< std::endl;
-    std::cout<< "print  pointer address : " ;
-    std::cout << pRPPositions << std::endl;
-
-
-    // the pRPPositions object contains the map of rpids to rp position parameters (distance to BP center and raw quantities) for current run
-    // we get the map just to loop over the contents, but from here on it should be  as the code (reconstruction etc) needs. 
-    // Probably best to check that the key (rpid) is in the list before calling the data
-
-    std::cout << "Size "  <<  pRPPositions->size() << std::endl;
-    const CTPPSRPPositions::posmap & mymap = pRPPositions->getPosmap();
-   
-   for  (CTPPSRPPositions::posmap::const_iterator it = mymap.begin(); it !=mymap.end() ; ++it) 
-     std::cout<<"Content  of pRPPositions for key: "<< it->first <<std::endl 
-	      <<" values dist: "<< pRPPositions->getRPDistanceToBeamPipeCenter(it->first)<<std::endl  
-	      <<" offset "      << pRPPositions->getRPOffset(it->first)<<std::endl
-	      <<" motor "       << pRPPositions->getRPRawMotor(it->first)<<std::endl
-	      <<" lvdt    "     << pRPPositions->getRPRawLVDT(it->first)<<std::endl
-	      <<" resolver "    << pRPPositions->getRPRawResolver(it->first)<<std::endl
-	      <<std::endl;
-        */
    
   }
   DEFINE_FWK_MODULE(myCTPPSDAQMappingAnalyzer);
