@@ -1,0 +1,15 @@
+<lcgdict>
+    <class name="CTPPSFramePosition"  class_version="0"/>
+    
+    <class name="CTPPSVFATInfo"  class_version="0"/>
+    
+    <class name="CTPPSDAQMapping"  class_version="0"/>
+    <class name="std::map<CTPPSFramePosition,CTPPSVFATInfo>"/>
+    
+    <class name="CTPPSSymbID"  class_version="0"/>
+    <class name="CTPPSVFATAnalysisMask"  class_version="0"/>
+
+    <class name="CTPPSAnalysisMask"  class_version="0"/>
+    <class name="std::map<CTPPSSymbID, CTPPSVFATAnalysisMask>"/>
+
+</lcgdict>
