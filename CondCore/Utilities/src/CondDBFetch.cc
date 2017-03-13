@@ -48,6 +48,8 @@ namespace cond {
       FETCH_PAYLOAD_CASE( CSCDBPedestals )
       FETCH_PAYLOAD_CASE( CSCDDUMap )
       FETCH_PAYLOAD_CASE( CSCL1TPParameters )
+      FETCH_PAYLOAD_CASE( CTPPSPixelDAQMapping )
+      FETCH_PAYLOAD_CASE( CTPPSPixelAnalysisMask )
       FETCH_PAYLOAD_CASE( CSCRecoDigiParameters )
       FETCH_PAYLOAD_CASE( CastorChannelQuality )
       FETCH_PAYLOAD_CASE( CastorElectronicsMap )
