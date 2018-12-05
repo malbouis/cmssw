@@ -15,7 +15,8 @@
 #include "DetectorDescription/Core/interface/DDSolid.h"
 #include "DetectorDescription/Core/interface/DDMaterial.h"
 
-#include "DataFormats/CTPPSAlignment/interface/RPAlignmentCorrectionData.h"
+//#include "DataFormats/CTPPSAlignment/interface/RPAlignmentCorrectionData.h"
+#include "CondFormats/CTPPSReadoutObjects/interface/CTPPSRPAlignmentCorrectionData.h"
 
 using namespace std;
 
@@ -182,7 +183,7 @@ void DetGeomDesc::deepDeleteComponents()
 
 //----------------------------------------------------------------------------------------------------
 
-void DetGeomDesc::ApplyAlignment(const RPAlignmentCorrectionData &t)
+void DetGeomDesc::ApplyAlignment(const CTPPSRPAlignmentCorrectionData &t)
 {
     //cout << " DetGeomDesc::ApplyAlignment > before: " << _trans << ",  " << _rot << endl;
 	_rot = t.getRotationMatrix() * _rot;

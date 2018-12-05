@@ -18,7 +18,7 @@
 #include "DataFormats/DetId/interface/DetId.h"
 
 class DDFilteredView;
-class RPAlignmentCorrectionData;
+class CTPPSRPAlignmentCorrectionData;
 
 /**
  * \brief Geometrical description of a sensor.
@@ -94,7 +94,7 @@ class DetGeomDesc
 		virtual std::string	material() const {return _material;}
 
 		/// alignment
-		void ApplyAlignment(const RPAlignmentCorrectionData&);
+		void ApplyAlignment(const CTPPSRPAlignmentCorrectionData&);
 		
 	private:
 		Container						_container;
