@@ -26,9 +26,9 @@
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/trackerParameters.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdMaterials.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/pixfwdCommon.xml"/>
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdCylinder.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwd.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdDisks.xml"/> 
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdCylinder.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwd.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdDisks.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdSupportRingParameters.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdInnerDiskZplus.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdInnerDiskZminus.xml"/>
@@ -38,17 +38,17 @@
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdbladeInnerZminus.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdbladeOuterZplus.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixfwdbladeOuterZminus.xml"/>
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarmaterial.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladder.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull0.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull1.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull2.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull3.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer0.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer1.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer2.xml"/> 
-    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer3.xml"/> 
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarmaterial.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladder.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull0.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull1.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull2.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarladderfull3.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer0.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer1.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer2.xml"/>
+    <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbarlayer3.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/PhaseI/pixbar.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/Run2/trackerpatchpannel.xml"/>
     <Include ref="Geometry/TrackerCommonData/data/Run2/trackerpixelnose.xml"/>
@@ -227,7 +227,7 @@
     <Include ref="Geometry/HcalCommonData/data/hcalouteralgo.xml"/>
     <Include ref="Geometry/HcalCommonData/data/hcalforwardalgo.xml"/>
     <Include ref="Geometry/HcalCommonData/data/average/hcalforwardmaterial.xml"/>
-    <Include ref="Geometry/HcalCommonData/data/hcalSimNumbering/2021/hcalSimNumbering.xml"/> 
+    <Include ref="Geometry/HcalCommonData/data/hcalSimNumbering/2021/hcalSimNumbering.xml"/>
     <Include ref="Geometry/HcalCommonData/data/hcalRecNumbering/2021/hcalRecNumbering.xml"/>
     <Include ref="Geometry/MuonCommonData/data/mbCommon/2021/v1/mbCommon.xml"/>
     <Include ref="Geometry/MuonCommonData/data/mb1/2015/v2/mb1.xml"/>
@@ -280,9 +280,43 @@
     <Include ref="Geometry/ForwardSimData/data/zdcProdCuts.xml"/>
     <Include ref="Geometry/ForwardSimData/data/ForwardShieldProdCuts.xml"/>
     <Include ref="Geometry/CMSCommonData/data/FieldParameters.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Materials.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Transformations.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Parameters.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Timing_Station_Parameters.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Timing_Horizontal_Pot.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern1_Segment1.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern2_Segment1.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern2_Segment2.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern3_Segment1.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern3_Segment2.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern3_Segment3.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern3_Segment4.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern4_Segment1.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern4_Segment2.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern4_Segment3.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern4_Segment4.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Segments/CTPPS_Diamond_Pattern4_Segment5.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_2018/CTPPS_Diamond_Planes/CTPPS_Diamond_Plane1.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_2018/CTPPS_Diamond_Planes/CTPPS_Diamond_Plane2.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_2018/CTPPS_Diamond_Planes/CTPPS_Diamond_Plane3.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_2018/CTPPS_Diamond_Planes/CTPPS_Diamond_Plane4.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_2018/CTPPS_Diamond_Detector_Assembly.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Diamond_Sensitive_Dets_TimingHits.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_UFSD_Segments/CTPPS_UFSD_Pattern1.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_UFSD_Segments/CTPPS_UFSD_Pattern2_SegmentA.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_UFSD_Segments/CTPPS_UFSD_Pattern2_SegmentB.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_UFSD_Planes/CTPPS_UFSD_Plane4.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_UFSD_Parameters.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_UFSD_Sensitive_Dets_TimingHits.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/ppstrackerMaterials.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_Module.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_Module_2x2.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_2018/CTPPS_Pixel_Assembly_Box_Real_003.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_2018/CTPPS_Pixel_Assembly_Box_Real_023.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_2018/CTPPS_Pixel_Assembly_Box_Real_103.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_2018/CTPPS_Pixel_Assembly_Box_Real_123.xml"/>
+    <Include ref="Geometry/VeryForwardData/data/CTPPS_Pixel_Sens.xml"/>
   </IncludeSection>
-  
+
 </DDDefinition>
-
-
-
