@@ -10,14 +10,14 @@
         <Constant name="RP_147_Left_Sec_Hor_z" value="9781*mm"/>
         <Constant name="RP_147_Left_Sec_Vert_z" value="10231*mm"/>
 
-        <Constant name="RP_147_Left_Sec_Rot_Angle" value="8"/>
+        <Constant name="RP_147_Left_Sec_Rot_Angle" value="8*deg"/>
         
         <Constant name="RP_147_Left_Hor_Vac_Length" value="[RP_Device:RP_Device_Envelope_Radius]+[RP_Device:RP_Device_Length_y]/2-[RP_Horizontal_Device:RP_Device_Hor_Closed_Wall_Thick_Int]"/>
     </ConstantsSection>
 
     <RotationSection label="RP_147_Left_Station.xml">
         <Rotation name="RP_147_Left_Sec_Rotation" 
-            phiX="[RP_147_Left_Sec_Rot_Angle]*deg" thetaX="90*deg" 
+            phiX="[RP_147_Left_Sec_Rot_Angle]" thetaX="90*deg" 
             phiY="(90+[RP_147_Left_Sec_Rot_Angle])*deg" thetaY="90*deg"
             phiZ="0*deg" thetaZ="0*deg"/>
         <Rotation name="RP_147_Left_90_y_Sec_Rotation" 
